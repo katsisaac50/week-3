@@ -284,21 +284,21 @@ MEDIA QUERIES
 		width: 100%;
 	}
 	#content {
-		width: 41%;
+		width: 25%;
 		padding: 1% 4%;
 	}
 	#middle {
-		width: 41%;
+		width: 25%;
 		padding: 1% 4%;
 		margin: 0px 0px 5px 5px;
-		float: right;
+		float: left;
 	}
 	
 	#sidebar {
-		clear: both;
+		
 		padding: 1% 4%;
-		width: auto;
-		float: none;
+		width: 25%;
+		float: left;
 	}
 
 	footer {
@@ -375,5 +375,32 @@ ul{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+}
+	.tod-paper-section {
+  position: relative;
+  border-top: 1px solid #DBDBDB;
+margin-bottom: 25px;
+  clear: both;
+		margin: 0
+}
+.hed-section .tod-paper-section{
+  border-top: 0;
+  border-bottom: 1px solid #DBDBDB;
+  margin: 0 0 1em;
+}
+.story .rel {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+i { padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+img {
+    width: 100%;
+    height: auto;
 }
 	
