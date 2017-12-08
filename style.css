@@ -349,7 +349,7 @@ MEDIA QUERIES
 	margin-bottom: 5px;
 }
 
-#pagewrap,  footer {
+#pagewrap{
 	border: solid 1px #ccc;
 }
 #content
