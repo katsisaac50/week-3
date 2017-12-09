@@ -286,20 +286,20 @@ body {
 	margin: 20px auto;
 }
 #content {
-	width: 33.3%;
+	width: 290px;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 33.3%;
+	width: 294px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #sidebar {
-	width: 33.3%;
+	width: 270px;
 	padding: 5px 15px;
 	float: left;
 }
