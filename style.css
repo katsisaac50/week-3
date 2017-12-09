@@ -277,6 +277,9 @@ clear: both;
 body { 
   font-family: 'Open Sans', sans-serif;
   color: #666;
+	margin-right:50px;
+	margin-left:50px;
+	padding:10px;
 }
 
 
