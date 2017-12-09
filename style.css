@@ -289,20 +289,20 @@ body {
 	margin: 20px auto;
 }
 #content {
-	width: 330px;
+	width: 450px;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 294px;
+	width: 350px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #sidebar {
-	width: 270px;
+	width: 310px;
 	padding: 5px 15px;
 	float: left;
 }
