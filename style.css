@@ -132,7 +132,6 @@ clear: both;
     padding: 0.5em 0;
 }
 
-
 .smartbar {
     position: absolute;
     top: 0;
@@ -170,7 +169,7 @@ clear: both;
 }
 
 .site-header__hamburger-text {
-    display: none
+    display:;
 }
 
 .site-header__hamburger-line {
@@ -254,6 +253,24 @@ clear: both;
     border: 1px solid transparent;
     transition: border 0.3s;
 }
+.site-nav__item--more:after{content:'';position:absolute;bottom:-8px;left:0;width:100%;height:15px;background-color:#fff;z-index:200}
+.site-nav__item--search svg{margin:0 0 -5px -5px;pointer-events:none;transform:scale(0.8)}
+.site-nav__item--search g{stroke:#000;transition:stroke 0.3s}
+.site-nav__item--search:hover g{stroke:#777}
+.site-nav__item--active{border:1px solid #777;border-bottom:0;box-shadow:2px 8px 10px -2px rgba(119,119,119,0.3)}
+.site-nav__item:first-child{padding-left:0}
+.site-nav__item:last-child{padding-right:0}
+.site-nav__list{position:relative}
+.site-nav__sub-list{opacity:0;position:absolute;right:-1px;min-width:180px;padding:10px 15px;padding:1rem 1.5rem;border:1px solid #777;text-align:left;background-color:#fff;z-index:100;box-shadow:-2px -3px 10px -2px rgba(119,119,119,0.3),2px 3px 10px -2px rgba(119,119,119,0.3);transition:opacity 0.3s, visibility 0.3s;visibility:hidden}
+.site-nav__sub-list--active{opacity:1;visibility:visible}
+.site-nav__sub-list .site-nav__item{padding:5px 0;padding:0.5rem 0}
+.site-nav__link{font-size:11.25pt;font-size:1.425rem;font-family:Helvetica, Arial, sans-serif;line-height:1.8;font-weight:800;color:#000;padding-bottom:2px;border-bottom:1px solid #000;text-decoration:none;padding-bottom:0;border-bottom:none}
+.site-nav__link:hover{color:#5e5d5d}
+.site-nav__link--more:hover:after{border-top:5px solid #777}
+.site-nav__link--more:after{content:'';display:inline-block;margin:0 0 -3px 5px;margin:0 0 -3px 0.5rem;border-top:5px solid #000;border-right:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid transparent;transition:border-top 0.3s}}
+.site-search{display:none}
+.site-search svg{pointer-events:none}
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -381,6 +398,8 @@ ol,ul{list-style:none}
   line-height: 1.4;
   font-weight: 400;
 }
+span {font-family:arial;
+font-size:20px;}
 h3{color:black;}
 h4{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 
