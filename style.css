@@ -320,16 +320,6 @@ footer {
 
 }
 
-.pagewrap2 {
-  padding:0px;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10%;
-  background-image: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
-  width: 100%;
-
-}
 .site-footer__content {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
